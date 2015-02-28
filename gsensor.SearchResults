@@ -1,0 +1,8 @@
+---- _bad_flag Matches (12 in 1 files) ----
+Gsensor_drv.c:uint8 _bad_flag[3];									
+Gsensor_drv.c:          _bad_flag[jtemp]=0;
+Gsensor_drv.c:            _bad_flag[jtemp]=1;
+Gsensor_drv.c:                if(_bad_flag[i] == 1)
+Gsensor_drv.c:	      _bad_flag[X_CHANNEL],_bad_flag[Y_CHANNEL],_bad_flag[Z_CHANNEL],
+Gsensor_drv.c:	      _bad_flag[X_CHANNEL],_bad_flag[Y_CHANNEL],_bad_flag[Z_CHANNEL],
+Gsensor_drv.c:	memset(_bad_flag,1,sizeof(_bad_flag));
